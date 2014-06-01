@@ -29,6 +29,7 @@
     "bigi": "^1.1.0",
     "bignum": "^0.7.0",
     "buffer": "2.3.0",
-    "core-hash": "git://github.com/coinative/core-hash"
+    "core-hash": "git://github.com/coinative/core-hash",
+    "inherits": "^2.0.1"
   }
 }
