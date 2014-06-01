@@ -1,15 +1,16 @@
 {
   "name": "core-base58",
   "version": "0.0.0",
-  "description": "",
+  "description": "Bitcoin base58 functions implemented for NodeJS and browsers via SJCL and JSBN",
   "main": "lib/index.js",
   "browser": {
     "bignum": "./lib-browser/bignum.js"
   },
-  "author": "",
+  "author": "Ben Shepheard <ben@coinative.com>",
   "license": "MIT",
   "scripts": {
-    "test": "./node_modules/.bin/mocha -r ./test/support/env -R dot ./test && ./node_modules/.bin/karma start"
+    "test": "./node_modules/.bin/mocha -r ./test/support/env -R dot ./test && ./node_modules/.bin/karma start",
+    "test-travis": "./node_modules/.bin/mocha -r ./test/support/env -R spec ./test && ./node_modules/.bin/karma start"
   },
   "devDependencies": {
     "browserify": "^4.1.6",
@@ -27,6 +28,7 @@
   "dependencies": {
     "bigi": "^1.1.0",
     "bignum": "^0.7.0",
-    "buffer": "2.3.0"
+    "buffer": "2.3.0",
+    "core-hash": "git://github.com/coinative/core-hash"
   }
 }
