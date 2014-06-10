@@ -1,12 +1,10 @@
-# @coinative/satoshi-base58
+# satoshi-base58
 
 [![Build Status](https://travis-ci.org/coinative/satoshi-base58.svg?branch=master)](https://travis-ci.org/coinative/satoshi-base58)
 
 Bitcoin base58 functions implemented for NodeJS and browsers via SJCL and JSBN.
 
 ## Install
-
-Not currently hosted on npmjs.org. Take this module as a git dependency via:
 
 ```
 npm install coinative/satoshi-base58
