@@ -7,7 +7,7 @@ Bitcoin base58 functions implemented for NodeJS and browsers via SJCL and JSBN.
 ## Install
 
 ```
-npm install coinative/satoshi-base58
+npm install satoshi-base58
 ```
 
 ## License
