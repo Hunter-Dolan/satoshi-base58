@@ -1,5 +1,5 @@
 {
-  "name": "core-base58",
+  "name": "satoshi-base58",
   "version": "0.0.0",
   "description": "Bitcoin base58 functions implemented for NodeJS and browsers via SJCL and JSBN",
   "main": "lib/index.js",
@@ -29,7 +29,7 @@
     "bigi": "^1.1.0",
     "bignum": "^0.7.0",
     "buffer": "2.3.0",
-    "core-hash": "git://github.com/coinative/core-hash",
+    "satoshi-hash": "git://github.com/coinative/satoshi-hash",
     "inherits": "^2.0.1"
   }
 }

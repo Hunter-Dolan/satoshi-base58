@@ -15,7 +15,7 @@ var testData = [
   ["", "", "3QJmnh"]
 ];
 
-describe('core-base58', function () {
+describe('satoshi-base58', function () {
   testData.forEach(function (data) {
     it('should correctly encode ' + (data[0] || 'empty'), function () {
       var buffer = new Buffer(data[0], 'hex');
