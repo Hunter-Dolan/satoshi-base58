@@ -1,6 +1,6 @@
 {
   "name": "satoshi-base58",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Bitcoin base58 functions implemented for NodeJS and browsers via SJCL and JSBN",
   "main": "lib/index.js",
   "browser": {
